@@ -19,7 +19,7 @@ runs:
 
     - name: Set an output
       id: set_output
-      run: echo "example_output=${{ inputs.example_input }}" >> $GITHUB_ENV
+      run: echo "::set-output name=example_output::${{ inputs.example_input }}"
 
     - name: Use an existing action
       uses: actions/setup-node@v3
