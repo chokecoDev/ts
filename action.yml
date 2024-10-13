@@ -13,10 +13,3 @@ runs:
   steps:
     - name: Run a shell command
       run: echo "This is a shell command, input value: ${{ inputs.example_input }}"
-
-    - name: Set an output
-      id: set_output
-      run: echo "::set-output name=example_output::${{ inputs.example_input }}"
-
-    - name: Final step
-      run: echo "Node.js setup complete!"
