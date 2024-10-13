@@ -1,4 +1,4 @@
-name: 'Argument002'
+name: 'New Chokeco action'
 description: This is a composed action example
 inputs:
   example_input:
