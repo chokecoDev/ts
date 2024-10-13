@@ -1,13 +1,13 @@
 name: 'New Chokeco action'
-description: This is a composed action example
+description: 'This is a composed action example'
 inputs:
   example_input:
-    description: A sample input for the action
+    description: 'A sample input for the action'
     required: true
-    default: "default value"
+    default: ''
 outputs:
   example_output:
-    description: The output of the composed action
+    description: 'The output of the composed action'
 runs:
   using: "composite"
   steps:
